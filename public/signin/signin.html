@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expensive Tracker</title>
+    <link rel="stylesheet" href="./signin.css">
+    <script src="./signin.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>PROJECT MANAGEMENT</h1>
+        <div class="form_space">
+            <form  method="POST" id="logIn_form">
+              
+                <label for="email">EMAIL:</label> <br>
+                <input type="email" id="email" name="email" placeholder="Enter Email Id" required> <br>
+                <label for="password">PASSWORD:</label> <br>
+                <input id="password" name="password" type="password" placeholder="Enter Password" required> <br>
+
+                <button type="submit">Log In</button> <br>
+                
+            </form> 
+            <div class="anchor_links">
+                <a href="../forgotpassword/forgotpass.html">Forgot Password</a> &nbsp;
+                <a href="../Signup/Signup.html">Sign Up</a>
+            </div>
+            
+                
+        </div>
+        
+    </div>
+    <div id="error"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js" integrity="sha512-OdkysyYNjK4CZHgB+dkw9xQp66hZ9TLqmS2vXaBrftfyJeduVhyy1cOfoxiKdi4/bfgpco6REu6Rb+V2oVIRWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+
+</html>

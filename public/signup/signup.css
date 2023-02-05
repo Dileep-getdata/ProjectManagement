@@ -1,0 +1,51 @@
+.container{
+    text-align: center;
+    width: 80vw;
+    height: 100vh;  
+    margin: auto;
+}
+.container h1{
+    font-size: 3em;
+    text-decoration: underline;
+    color:brown;
+}
+.form_space{
+    width: 50vw;
+    height: 110vh;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    box-shadow: 5px 3px 15px;
+    
+}
+#signUp_form label:not([for="female"]):not([for="male"]){
+    float: left;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#signUp_form input:not([type=radio]){
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: aliceblue;
+}
+#signUp_form button{
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.anchor_links{
+    margin-top: 20px;
+    
+}
+.anchor_links a{
+    
+    text-decoration: none;
+    color:rgb(250, 204, 149);
+    
+} 

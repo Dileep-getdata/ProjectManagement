@@ -1,0 +1,86 @@
+.container{
+    text-align: center;
+    width: 80vw;
+    height: 80vh;  
+    margin: auto;
+}
+.container h1{
+    font-size: 3em;
+    text-decoration: underline;
+    color:brown;
+}
+
+.form_space{
+    /* position: absolute; */
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    box-shadow: 5px 3px 15px;
+    
+}
+#product-form label:not([for="pending"]):not([for="done"]):not([for="progress"]){
+    float: left;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#product-form textarea{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    border-radius: 8px;
+    border: none;
+    background-color: aliceblue;
+
+}
+#product-form input:not([type="radio"]),#search_form input{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: aliceblue;
+}
+#product-form button,#search_form button{
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#product-form button{
+    float: right;
+    margin-right: 30px;    
+    background-color: gray;
+}
+
+.goBack{
+    font-size: 1em;
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color:gray;
+    color: black;  
+
+
+}
+.setBtns{
+    margin-top: 50px;
+}
+
+#addProduct{
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(68, 68, 239);
+    color: whitesmoke;
+    border-radius: 10px;
+}
